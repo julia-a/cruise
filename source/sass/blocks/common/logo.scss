@@ -1,0 +1,37 @@
+.logo {
+  display: flex;
+  color: $white-100;
+
+  &--main-nav {
+    margin-right: 40px;
+
+    @media (max-width: $tablet-width) {
+      margin-right: 25px;
+    }
+  }
+}
+
+.main-nav--opened .logo {
+  @media (max-width: $mobile-width) {
+    color: $dark-blue;
+    padding-bottom: 35px;
+  }
+}
+
+.main-nav--nojs .logo {
+  @media (max-width: $mobile-width) {
+    padding-bottom: 35px;
+  }
+}
+
+.logo__icon {
+  @media (max-width: $tablet-width) {
+    width: 38px;
+    height: 20px;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 42px;
+    height: 22px;
+  }
+}

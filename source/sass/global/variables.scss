@@ -1,8 +1,13 @@
 // Breakpoints
-$tablet-width: 768px;
-$mobile-width: 320px;
+$tablet-width: 1199px;
+$mobile-width: 767px;
+
+// Retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
 
 // Colors
 $white: #ffffff;
 $white-100: #F9FBFD;
 $dark-blue: #011C40;
+$light-blue: #E3ECF6;

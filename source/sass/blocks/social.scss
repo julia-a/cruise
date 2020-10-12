@@ -1,0 +1,33 @@
+.social {
+  @include list-reset;
+
+  display: flex;
+
+  &--page-footer {
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: -23px;
+
+    @media (max-width: $mobile-width) {
+      justify-content: flex-start;
+      margin: 0;
+    }
+  }
+}
+
+.social__item {
+  margin-right: 23px;
+}
+
+.social__item a {
+  @include interactive-element;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  color: $white-100;
+
+  @media (max-width: $mobile-width) {
+    display: block;
+  }
+}
