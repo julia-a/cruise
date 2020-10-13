@@ -1,6 +1,8 @@
 .offers {
-  padding-top: 97px;
+  padding-top: 86px;
   padding-bottom: 90px;
+  padding-left: 16px;
+  padding-right: 16px;
 
   @media (max-width: $tablet-width) {
     padding-top: 78px;
@@ -24,7 +26,7 @@
 
   display: flex;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-right: -30px;
 
   @media (max-width: $mobile-width) {
@@ -42,12 +44,13 @@
   height: 386px;
   margin-bottom: 30px;
   margin-right: 30px;
-  padding-top: 65px;
+  padding-top: 70px;
   padding-bottom: 35px;
   padding-left: 25px;
   padding-right: 25px;
 
   color: $white-100;
+
   background-color: $dark-blue;
 
   overflow: hidden;
@@ -67,16 +70,16 @@
 
 .offers__item-title {
   position: absolute;
-  bottom: 12px;
+  bottom: 5px;
   left: 30px;
-  z-index: 5;
+  z-index: 1;
 
   font-size: 18px;
   font-weight: 500;
 }
 
 .offers__item:hover .offers__item-title {
-  top: 15px;
+  top: 10px;
   left: 25px;
 }
 
@@ -87,8 +90,8 @@
 }
 
 .offers__item-text {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 12px;
 
   font-size: 14px;
   line-height: 1.4;

@@ -4,9 +4,10 @@
   display: flex;
 
   &--page-footer {
+    align-items: center;
     justify-content: flex-end;
     margin-left: auto;
-    margin-right: -23px;
+    margin-right: -32px;
 
     @media (max-width: $mobile-width) {
       justify-content: flex-start;
@@ -16,7 +17,7 @@
 }
 
 .social__item {
-  margin-right: 23px;
+  margin-right: 32px;
 }
 
 .social__item a {

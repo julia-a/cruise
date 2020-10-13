@@ -1,5 +1,6 @@
 .logo {
   display: flex;
+
   color: $white-100;
 
   &--main-nav {
@@ -13,8 +14,9 @@
 
 .main-nav--opened .logo {
   @media (max-width: $mobile-width) {
-    color: $dark-blue;
     padding-bottom: 35px;
+
+    color: $dark-blue;
   }
 }
 
