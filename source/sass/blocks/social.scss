@@ -9,6 +9,10 @@
     margin-left: auto;
     margin-right: -32px;
 
+    @media (max-width: $tablet-width) {
+      margin-right: -23px;
+    }
+
     @media (max-width: $mobile-width) {
       justify-content: flex-start;
       margin: 0;
@@ -18,6 +22,10 @@
 
 .social__item {
   margin-right: 32px;
+
+  @media (max-width: $tablet-width) {
+    margin-right: 23px;
+  }
 }
 
 .social__item a {
@@ -30,5 +38,26 @@
 
   @media (max-width: $mobile-width) {
     display: block;
+  }
+}
+
+.social__item--facebook svg {
+  @media (max-width: $tablet-width) {
+    width: 9px;
+    height: 16px;
+  }
+}
+
+.social__item--instagram svg {
+  @media (max-width: $tablet-width) {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.social__item--twitter svg {
+  @media (max-width: $tablet-width) {
+    width: 16px;
+    height: 13px;
   }
 }

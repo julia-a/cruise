@@ -50,6 +50,10 @@
   min-height: 138px;
   padding-top: 50px;
   padding-bottom: 50px;
+
+  @media (max-width: $tablet-width) {
+    min-height: 120px;
+  }
 }
 
 .main-nav__toggle {

@@ -37,14 +37,14 @@
   padding-right: 60px;
 
   @media (max-width: $tablet-width) {
-    padding-top: 72px;
+    padding-top: 74px;
     padding-bottom: 100px;
     padding-left: 0;
     padding-right: 0;
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 40px;
+    padding-top: 46px;
     padding-bottom: 65px;
   }
 }
@@ -90,31 +90,34 @@
   font-weight: 700;
 
   @media (max-width: $tablet-width) {
-    margin-bottom: 7px;
+    margin-bottom: -12px;
 
     font-size: 34px;
   }
 
   @media (max-width: $mobile-width) {
-    margin-bottom: 9px;
+    margin-bottom: -2px;
 
     font-size: 24px;
     line-height: 1.3;
   }
 }
 
-.order__desc {
+.order p {
   padding-right: 155px;
 
   font-size: 18px;
 
   @media (max-width: $tablet-width) {
-    margin-bottom: 60px;
-    padding-right: 0;
+    margin-bottom: 54px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   @media (max-width: $mobile-width) {
-    margin-bottom: 40px;
+    margin-bottom: 34px;
+    padding-left: 0;
+    padding-right: 0;
 
     font-size: 16px;
     line-height: 1.4;
@@ -131,7 +134,10 @@
   background-color: $dark-blue;
 
   @media (max-width: $mobile-width) {
-    padding: 30px;
+    padding-top: 42px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -140,6 +146,10 @@
   margin-bottom: 26px;
 
   font-size: 18px;
+
+  @media (max-width: $mobile-width) {
+    text-align: center;
+  }
 }
 
 .order__form input {

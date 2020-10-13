@@ -22,6 +22,8 @@
   }
 
   @media (max-width: $mobile-width) {
+    margin-top: -62px;
+
     background-image: url("../img/mobile/bg-header.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -38,12 +40,13 @@
   color: $white-100;
 
   @media (max-width: $tablet-width) {
-    padding-top: 230px;
+    padding-top: 254px;
+    padding-left: 0;
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 140px;
-    padding-bottom: 180px;
+    padding-top: 152px;
+    padding-bottom: 164px;
   }
 }
 
@@ -54,15 +57,20 @@
   font-weight: 700;
 
   @media (max-width: $tablet-width) {
+    margin-bottom: 2px;
+
     font-size: 50px;
   }
 
   @media (max-width: $mobile-width) {
+    margin-bottom: 10px;
+
     font-size: 36px;
+    line-height: 1.25;
   }
 }
 
-.promo__text {
+.promo p {
   margin-top: 0;
 
   font-size: 20px;
@@ -72,6 +80,9 @@
   }
 
   @media (max-width: $mobile-width) {
+    padding-right: 80px;
+
     font-size: 16px;
+    line-height: 1.4;
   }
 }

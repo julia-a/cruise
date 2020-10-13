@@ -5,13 +5,15 @@
   padding-right: 16px;
 
   @media (max-width: $tablet-width) {
-    padding-top: 78px;
+    padding-top: 68px;
     padding-bottom: 70px;
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 45px;
+    padding-top: 40px;
     padding-bottom: 35px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -30,7 +32,7 @@
   margin-right: -30px;
 
   @media (max-width: $mobile-width) {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: 0;
   }
 }
@@ -76,11 +78,25 @@
 
   font-size: 18px;
   font-weight: 500;
+
+  @media (max-width: $tablet-width) {
+    bottom: 10px;
+    left: 35px;
+  }
+
+  @media (max-width: $mobile-width) {
+    bottom: 0;
+    left: 25px;
+  }
 }
 
 .offers__item:hover .offers__item-title {
   top: 10px;
   left: 25px;
+
+  @media (max-width: $tablet-width) {
+    left: 35px;
+  }
 }
 
 .offers__item-subtitle {
@@ -89,7 +105,7 @@
   line-height: 1.4;
 }
 
-.offers__item-text {
+.offers__item p {
   margin-top: 2px;
   margin-bottom: 12px;
 

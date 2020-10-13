@@ -6,11 +6,11 @@
 
   @media (max-width: $tablet-width) {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 92px;
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 65px;
+    padding-top: 0;
     padding-bottom: 65px;
   }
 }
@@ -38,6 +38,7 @@
 
     @media (max-width: $tablet-width) {
       width: calc(100% - 324px);
+      padding-top: 48px;
       padding-left: 30px;
     }
 
@@ -63,7 +64,7 @@
   }
 }
 
-.contacts__text {
+.contacts p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -77,10 +78,19 @@
 
   font-style: normal;
 
+  @media (max-width: $tablet-width) {
+    margin-top: 26px;
+    padding-right: 35px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-right: 0;
+  }
+
   &::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
 
     width: 18px;
@@ -90,14 +100,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-color: transparent;
-  }
-
-  @media (max-width: $tablet-width) {
-    padding-right: 35px;
-  }
-
-  @media (max-width: $mobile-width) {
-    padding-right: 0;
   }
 }
 
