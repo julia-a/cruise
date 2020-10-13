@@ -1,5 +1,5 @@
 .features {
-  background-image: url("../../img/desktop/bg-features.jpg");
+  background-image: url("../img/desktop/bg-features.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,22 +8,22 @@
   overflow: hidden;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../../img/desktop/bg-features@2x.jpg");
+    background-image: url("../img/desktop/bg-features@2x.jpg");
   }
 
   @media (max-width: $tablet-width) {
-    background-image: url("../../img/tablet/bg-features.jpg");
+    background-image: url("../img/tablet/bg-features.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../../img/tablet/bg-features@2x.jpg");
+      background-image: url("../img/tablet/bg-features@2x.jpg");
     }
   }
 
   @media (max-width: $mobile-width) {
-    background-image: url("../../img/mobile/bg-features.jpg");
+    background-image: url("../img/mobile/bg-features.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../../img/mobile/bg-features@2x.jpg");
+      background-image: url("../img/mobile/bg-features@2x.jpg");
     }
   }
 }
@@ -103,7 +103,7 @@
   }
 
   &--ship::before {
-    background-image: url("../../img/ship.svg");
+    background-image: url("../img/ship.svg");
     background-size: 27px 32px;
 
     @media (max-width: $tablet-width) {
@@ -112,7 +112,7 @@
   }
 
   &--all-inclusive::before {
-    background-image: url("../../img/all-inclusive.svg");
+    background-image: url("../img/all-inclusive.svg");
     background-size: 38px 21px;
 
     @media (max-width: $tablet-width) {
@@ -121,7 +121,7 @@
   }
 
   &--zodiac::before {
-    background-image: url("../../img/zodiac.svg");
+    background-image: url("../img/zodiac.svg");
     background-size: 42px 15px;
 
     @media (max-width: $tablet-width) {
