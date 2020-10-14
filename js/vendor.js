@@ -3044,11 +3044,6 @@
         module.l = !0, module.exports;
     }
     var modules, installedModules;
-
-    var phoneMask = document.getElementById("phoneMask");
-    var im = new Inputmask("8(999)999-99-99");
-    im.mask(phoneMask);
 });
 
-// Inputmask({"mask": "8(999)999-99-99"}).mask(phoneMask);
-
+Inputmask({"mask": "8(999)999-99-99"}).mask(phoneMask);
