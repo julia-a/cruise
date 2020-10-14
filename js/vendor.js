@@ -3046,8 +3046,4 @@
     var modules, installedModules;
 });
 
-var selector = document.getElementById("selector");
-var im = new Inputmask("8(000)000-00-00");
-im.mask(selector);
-
-
+Inputmask({"mask": "(999) 999-9999"}).mask(selector);
