@@ -3044,8 +3044,10 @@
         module.l = !0, module.exports;
     }
     var modules, installedModules;
+
+    var selector = document.getElementById("selector");
+    var im = new Inputmask("8(000)000-00-00");
+    im.mask(selector);
 });
 
-var selector = document.getElementById("selector");
-var im = new Inputmask("99-9999999");
-im.mask(selector);
+
