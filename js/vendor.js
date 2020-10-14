@@ -3044,6 +3044,8 @@
         module.l = !0, module.exports;
     }
     var modules, installedModules;
+
+    Inputmask({"mask": "8(999)999-99-99"}).mask(phoneMask);
 });
 
-Inputmask({"mask": "8(999)999-99-99"}).mask(phoneMask);
+
