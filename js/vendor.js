@@ -3044,8 +3044,7 @@
         module.l = !0, module.exports;
     }
     var modules, installedModules;
-
-    Inputmask({"mask": "8(000)000-00-00"}).mask(selector);
 });
 
+Inputmask({"mask": "8(000)000-00-00"}).mask(selector);
 
