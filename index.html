@@ -285,7 +285,7 @@
               <input type="text" name="name" placeholder="Валерия" minlength="2" required="">
             </label>
             <label>
-              <input class="plugin__input_imaskjs" type="tel" name="phone" placeholder="89236889975" maxlength="11" minlength="11" pattern="\8\ [0-9]{10}" required="">
+              <input class="plugin__input_imaskjs" type="tel" name="phone" placeholder="+7 (923) 688-99-75" required="">
             </label>
             <label>
               <input type="email" name="email" placeholder="grishaewa.lera@gmail.com" required="">
@@ -356,15 +356,8 @@
 
 <script src="js/main.js"></script>
 <!-- Plugin Imaskjs -->
-<script src="https://unpkg.com/imask"></script>
-<script>
-var elements = document.getElementsByClassName('plugin__input_imaskjs');
-  for (var i = 0; i < elements.length; i++) {
-    new IMask(elements[i], {
-      mask: '+{7}(000)000-00-00',
-    });
-  }
-</script>
+<script src="js/vendor  .js"></script>
+
 <!-- /Plugin Imaskjs -->
 </body>
 </html>
