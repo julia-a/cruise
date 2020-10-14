@@ -36,7 +36,7 @@
 
 .main-nav--opened .main-nav__wrapper {
   @media (max-width: $mobile-width) {
-    padding-bottom: 40px;
+    padding-bottom: 90px;
   }
 }
 
@@ -53,6 +53,12 @@
 
   @media (max-width: $tablet-width) {
     min-height: 120px;
+  }
+
+  @media (max-width: $mobile-width) {
+    min-height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 

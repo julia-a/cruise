@@ -67,6 +67,8 @@
     width: calc(100% - 20px);
     margin-left: 10px;
     margin-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
@@ -75,6 +77,9 @@
   bottom: 5px;
   left: 30px;
   z-index: 1;
+
+  display: block;
+  height: 25px;
 
   font-size: 18px;
   font-weight: 500;
@@ -85,7 +90,7 @@
   }
 
   @media (max-width: $mobile-width) {
-    bottom: 0;
+    bottom: 2px;
     left: 25px;
   }
 }
@@ -96,6 +101,10 @@
 
   @media (max-width: $tablet-width) {
     left: 35px;
+  }
+
+  @media (max-width: $mobile-width) {
+    left: 25px;
   }
 }
 

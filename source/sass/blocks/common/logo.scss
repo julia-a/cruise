@@ -26,6 +26,12 @@
   }
 }
 
+.main-nav--footer .logo {
+  @media (max-width: $mobile-width) {
+    padding-bottom: 27px;
+  }
+}
+
 .logo__icon {
   @media (max-width: $tablet-width) {
     width: 38px;

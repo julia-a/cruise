@@ -44,7 +44,8 @@
 
     @media (max-width: $mobile-width) {
       width: 100%;
-      padding-bottom: 40px;
+      padding-top: 40px;
+      padding-bottom: 38px;
       padding-left: 0;
     }
   }
@@ -84,6 +85,7 @@
   }
 
   @media (max-width: $mobile-width) {
+    padding-left: 28px;
     padding-right: 0;
   }
 
@@ -111,6 +113,10 @@
   padding-left: 30px;
 
   color: $dark-blue;
+
+  @media (max-width: $mobile-width) {
+    padding-left: 28px;
+  }
 
   &::before {
     content: "";
