@@ -5,7 +5,17 @@
 
   navMain.classList.remove('main-nav--nojs');
 
-  navToggle.addEventListener('click', function () {
+  var setListener = (element, type, handler) => {
+    if (!element) {
+      return;
+    }
+    element.addEventListener(type, handler);
+    return () => {
+      element.remoteEventListener(type, handler);
+    };
+  }
+
+  setListener(navToggle, 'click', () => {
     if (navMain.classList.contains('main-nav--closed')) {
       navMain.classList.remove('main-nav--closed');
       navMain.classList.add('main-nav--opened');
