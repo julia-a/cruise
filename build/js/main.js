@@ -5,7 +5,7 @@
 
   navMain.classList.remove('main-nav--nojs');
 
-  var setListener = (element, type, handler) => {
+  var setListener = function (element, type, handler) {
     if (!element) {
       return;
     }
