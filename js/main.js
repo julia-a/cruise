@@ -11,9 +11,6 @@
       return;
     }
     element.addEventListener(type, handler);
-    return function () {
-      element.remoteEventListener(type, handler);
-    };
   };
 
   setListener(navToggle, 'click', function () {
