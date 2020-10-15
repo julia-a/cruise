@@ -3045,5 +3045,3 @@
     }
     var modules, installedModules;
 });
-
-Inputmask({"mask": "8(999)999-99-99"}).mask(phoneMask);
