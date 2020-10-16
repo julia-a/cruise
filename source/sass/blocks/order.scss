@@ -162,6 +162,7 @@
   padding: 14px;
 
   border: none;
+  border-radius: 0;
 
   @media (max-width: $mobile-width) {
     margin-bottom: 19px;
@@ -190,10 +191,10 @@
   margin-right: 5px;
 
   border: none;
+  border-radius: 0;
+  cursor: pointer;
 
   @media (max-width: $mobile-width) {
-    width: 40px;
-    height: 40px;
     margin-right: 7px;
   }
 }
