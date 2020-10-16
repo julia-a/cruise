@@ -2,7 +2,7 @@
 (function () {
   var navMain = document.querySelector('.main-nav');
   var navToggle = document.querySelector('.main-nav__toggle');
-  // var phoneMask = document.querySelector('#phoneMask');
+  var phoneMask = document.querySelector('#phoneMask');
 
   navMain.classList.remove('main-nav--nojs');
 
@@ -23,7 +23,7 @@
     }
   });
 
-  // // eslint-disable-next-line no-undef
-  // var inputMask = new Inputmask({'mask': '8(999)999-99-99'});
-  // inputMask.mask(phoneMask);
+  // eslint-disable-next-line no-undef
+  var inputMask = new Inputmask({'mask': '8(999)999-99-99'});
+  inputMask.mask(phoneMask);
 })();
