@@ -24,6 +24,6 @@
   });
 
   // eslint-disable-next-line no-undef
-  var inputMask = new Inputmask({'mask': '999-99-99'});
+  var inputMask = new Inputmask({'mask': '8(999)999-99-99'});
   inputMask.mask(phoneMask);
 })();
